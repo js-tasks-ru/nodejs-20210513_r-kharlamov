@@ -5,7 +5,7 @@
   "scripts": {
     "test": "cross-env NODE_ENV=test mocha --no-warnings --ignore=node_modules/** **/*.test.js",
     "lint": "eslint --ignore-pattern 'public' --ignore-pattern '*.test.js' --ignore-pattern 'client' .",
-    "start": "node ./01-intro/01-sum/sum.js"
+    "start": "node ./02-event-loop/01-events-order/index.js"
   },
   "keywords": [],
   "author": "Sergey Zelenov",
